@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my_container{
+  @apply w-8/12 py-4 mx-auto
+}
+.input_filed{
+  @apply border-2 border-gray-400 rounded-lg pl-2 py-1 w-5/12
+}
+.input_btn{
+  @apply border border-gray-500 rounded-xl py-2 px-7 hover:opacity-70
+}
+.delete_btn{
+  @apply border border-gray-500 rounded-lg text-xl font-semibold px-1 ml-1 mb-1 hover:opacity-75
+}
